@@ -15,3 +15,9 @@ $ composer require laravel/breeze --dev
 ```sh
 $ php artisan breeze:install
 ```
+--------------------------------------------------------
+
+Executando o Seeder criado ao instalar o Breeze, que foi modificado para guardar um usuário
+```sh
+$ php artisan db:seed --class=DatabaseSeeder
+```
